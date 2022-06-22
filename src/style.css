@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 550px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
+  background: #21222A;
+}
+
+.nav-logo {
+  position: relative;
+  width: 158px;
+  height: 28.93px;
+  left: 26px;
+  top: 31px;
+}
+
+.nav-title {
+  position: relative;
+  width: 259px;
+  height: 21px;
+  left: 264px;
+  top: 38px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #DEEBF8;
+}
