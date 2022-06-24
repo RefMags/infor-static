@@ -6,7 +6,6 @@ export default function Navbar() {
     <nav className="nav-main">
       <img className="nav-logo" src="./images/logo.png" alt="" />
       <h3 className="nav-title"> React Course -Project 1</h3>
-      <h3 className="nav-title"> React Course -Project 1</h3>
     </nav>
   )
 }
