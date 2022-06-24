@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: Inter, san-serif;
+  background-color: #21222A;
 }
 
 .nav-main {
@@ -34,4 +35,25 @@ body {
 .nav-logo {
   height: 30px;
   margin-right: 7px;
+}
+
+main {
+  padding:57px 27px;
+  color: #DEEBF8;
+}
+
+.main-header {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-lists {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-lists > li {
+  line-height: 19px;
+  padding-block: 10px;
 }
