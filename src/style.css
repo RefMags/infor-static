@@ -5,7 +5,8 @@
 body {
   margin: 0;
   font-family: Inter, san-serif;
-  background-color: #21222A;
+  height: 100vh;
+  background-color: #282D35;
 }
 
 .nav-main {
@@ -40,6 +41,10 @@ body {
 main {
   padding:57px 27px;
   color: #DEEBF8;
+  background-image: url(./images/reactjs-icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center ;
 }
 
 .main-header {
@@ -51,10 +56,21 @@ main {
 .main-lists {
   margin-top: 46px;
   max-width: 400px;
-  font-size: 10px;
 }
 
 .main-lists > li {
   line-height: 19px;
   padding-block: 10px;
+}
+
+.main-lists > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
+.main-reactLogo {
+  width: 263px;
+  height: 263px;
+  left: 418px;
+  top: 198px;  
 }
