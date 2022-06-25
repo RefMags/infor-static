@@ -51,6 +51,7 @@ main {
 .main-lists {
   margin-top: 46px;
   max-width: 400px;
+  font-size: 10px;
 }
 
 .main-lists > li {
